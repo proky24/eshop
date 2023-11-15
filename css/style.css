@@ -1,0 +1,158 @@
+.text{
+    font-style: italic;
+    padding-left: 510px;
+}
+
+
+h1{
+    text-decoration: underline;
+}
+
+nav{
+    width: auto;
+    height: 40px;
+    color: white;
+    background-color: black;
+}
+
+nav a{
+    padding-left: 305px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    cursor: pointer;
+}
+
+button{
+    border-style: none;
+    border-radius: 3px;
+    border: 0.7px solid;
+}
+
+.add{
+    background-color:white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    transition: background-color 1s, color 1s;
+    margin-right: 15px;
+}
+
+.add:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.add:active{
+    opacity: 0.7;
+}
+
+.buy{
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    transition: background-color 1s, color 1s;
+}
+
+.buy:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.buy:active{
+    opacity: 0.7;
+}
+
+.kniha{
+    width: 450px;
+    margin-top: 30px;
+}
+
+h2{
+    text-decoration: underline;
+    margin-right: 15px;
+}
+
+.recenze1{
+    display: flex;
+    align-items: center;
+}
+
+.recenze{
+    background-color:rgb(1, 139, 194);
+    border: none;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    transition: background-color 0.75s;
+}
+
+.recenze:hover{
+    background-color: rgb(45, 166, 214);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 480px)
+{
+    .text{
+        padding-left: 205px;
+    }
+
+    nav{
+        width: auto;
+        height: 7vh;
+        color: white;
+        background-color: black;
+    }
+    
+    nav a{
+        padding-left: 50px;
+        text-decoration: none;
+        color: white;
+        
+    }
+
+    .add{
+        background-color:white;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 3.5px;
+        padding-bottom: 3.5px;
+        transition: background-color 1s, color 1s;
+        margin-right: 8px;
+    }
+
+    .buy{
+        background-color: white;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 3.5px;
+        padding-bottom: 3.5px;
+        transition: background-color 1s, color 1s;
+    }
+    
+    .recenze{
+        background-color:rgb(1, 139, 194);
+        border: none;
+        color: white;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 3.5px;
+        padding-bottom: 3.5px;
+        transition: background-color 0.75s;
+    }
+
+    .kniha{
+        width: 100px;
+        margin-top: 15px;
+    }
+}
